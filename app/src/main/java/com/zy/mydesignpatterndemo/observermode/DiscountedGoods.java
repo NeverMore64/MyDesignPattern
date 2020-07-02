@@ -1,4 +1,4 @@
-package com.zy.mydesignpatterndemo.observer;
+package com.zy.mydesignpatterndemo.observermode;
 
 /**
  * create by zy on 2020/7/2

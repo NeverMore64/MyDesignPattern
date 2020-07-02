@@ -6,7 +6,7 @@ package com.zy.mydesignpatterndemo.decoratormode;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args){
         // 没化妆的小明
         Actor component = new ActorXiaoMing();
         // 给小明画了白头发

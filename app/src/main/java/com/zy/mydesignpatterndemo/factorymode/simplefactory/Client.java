@@ -10,7 +10,7 @@ import com.zy.mydesignpatterndemo.factorymode.Product;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args){
 
         // 创建产品A
         Product productA = ConcreteFactory.createProduct(ConcreteProductA.class);

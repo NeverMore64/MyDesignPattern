@@ -9,7 +9,7 @@ import com.zy.mydesignpatterndemo.proxymode.Subject;
  */
 public class Client {
 
-    public void main(){
+    public static void main(String[] args){
         DynamicProxy dynamicProxy = new DynamicProxy();
         RealSubject realSubject = new RealSubject();
         Subject subject = (Subject) dynamicProxy.newProxyInstance(realSubject);

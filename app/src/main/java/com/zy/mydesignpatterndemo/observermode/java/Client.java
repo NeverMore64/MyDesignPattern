@@ -1,4 +1,4 @@
-package com.zy.mydesignpatterndemo.observer.java;
+package com.zy.mydesignpatterndemo.observermode.java;
 
 import java.util.Observer;
 
@@ -8,7 +8,7 @@ import java.util.Observer;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args){
         // 创建被观察者
         DiscountedGoods discountedGoods = new DiscountedGoods();
         // 创建观察者

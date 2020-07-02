@@ -1,4 +1,4 @@
-package com.zy.mydesignpatterndemo.observer.java;
+package com.zy.mydesignpatterndemo.observermode.java;
 
 import java.util.Observable;
 

@@ -6,7 +6,7 @@ package com.zy.mydesignpatterndemo.factorymode;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args){
         Factory factory = new ConcreteFactory();
 
         // 创建产品A

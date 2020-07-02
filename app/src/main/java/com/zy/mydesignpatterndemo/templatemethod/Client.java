@@ -10,7 +10,7 @@ package com.zy.mydesignpatterndemo.templatemethod;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args) {
         StandardWashing washing = new StandardWashing();
         washing.washClothes();
 

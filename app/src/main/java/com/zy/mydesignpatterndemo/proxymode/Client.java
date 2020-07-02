@@ -6,7 +6,7 @@ package com.zy.mydesignpatterndemo.proxymode;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args){
         Subject proxy = new Proxy();
         proxy.buy();
     }

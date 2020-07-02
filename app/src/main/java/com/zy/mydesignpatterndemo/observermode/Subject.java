@@ -1,4 +1,4 @@
-package com.zy.mydesignpatterndemo.observer;
+package com.zy.mydesignpatterndemo.observermode;
 
 import java.util.ArrayList;
 import java.util.List;

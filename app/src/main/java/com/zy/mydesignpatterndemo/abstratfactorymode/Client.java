@@ -13,7 +13,7 @@ package com.zy.mydesignpatterndemo.abstratfactorymode;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args){
         Factory concreteFactory1 = new ConcreteFactory1();
         Factory concreteFactory2 = new ConcreteFactory2();
         IProductA productA1 = concreteFactory1.createProductA();

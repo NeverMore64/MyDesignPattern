@@ -1,4 +1,4 @@
-package com.zy.mydesignpatterndemo.observer;
+package com.zy.mydesignpatterndemo.observermode;
 
 /**
  * create by zy on 2020/7/2
@@ -6,7 +6,7 @@ package com.zy.mydesignpatterndemo.observer;
  */
 public class Client {
 
-    public void main() {
+    public static void main(String[] args){
         // 创建被观察者
         DiscountedGoods discountedGoods = new DiscountedGoods();
         // 创建观察者
